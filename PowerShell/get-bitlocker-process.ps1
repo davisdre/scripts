@@ -1,4 +1,4 @@
-## PURPOSE: To check progress of BitLocker Process so you don't have to keep running "get-blockervolume" to keep check progress. 
+# PURPOSE: To check the Encryption Percentage progress, so you don't have keep running 'Get-BitLockerVolume' to see when encrypting has completed. 
 #
 Do
 {
