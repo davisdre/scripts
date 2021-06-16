@@ -1,15 +1,4 @@
-## PURPOSE: To check progress of BitLocker Process.
-##
-## Initial creator: Drew Davis
-#
-## Revised last by:
-## Revised date:
-#
-# Version history
-#
-# version 0.1
-# Initial PowerShell script for checking progress
-#
+## PURPOSE: To check progress of BitLocker Process so you don't have to keep running "get-blockervolume" to keep check progress. 
 #
 Do
 {
