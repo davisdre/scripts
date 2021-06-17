@@ -5,3 +5,5 @@ Do
     $BitLockerProgress = (Get-BitLockerVolume).EncryptionPercentage
     Write-Progress -Activity "BitLocker Encryption Progress" -status $BitLockerProgress -PercentComplete $BitLockerProgress
 } Until ($BitLockerProgress -eq 100)
+
+Write-Host "Drive is BitLocker Encrypted"
