@@ -1,4 +1,5 @@
 # PURPOSE: To check the BitLocker Encryption Percentage progress, so you don't have keep running 'Get-BitLockerVolume' to see when encryption has completed. 
+# NOTE - THIS IS ONLY GOOD IF YOU HAVE ONE MOUNT POINT.
 
 # Create a progress bar.
 Do
