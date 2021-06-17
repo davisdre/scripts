@@ -1,5 +1,5 @@
-# PURPOSE: To check the Encryption Percentage progress, so you don't have keep running 'Get-BitLockerVolume' to see when encrypting has completed. 
-#
+# PURPOSE: To check the BitLocker Encryption Percentage progress, so you don't have keep running 'Get-BitLockerVolume' to see when encryption has completed. 
+
 Do
 {
     $BitLockerProgress = (Get-BitLockerVolume).EncryptionPercentage
