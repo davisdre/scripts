@@ -1,5 +1,18 @@
-# PURPOSE: To check the BitLocker Encryption Percentage progress, so you don't have keep running 'Get-BitLockerVolume' to see when encryption has completed. 
-# NOTE - THIS IS ONLY GOOD IF YOU HAVE ONE MOUNT POINT.
+<#
+.SYNOPSIS
+    Create a progress bar to BitLocker Encryption
+.DESCRIPTION
+    The use of this script to follow allong when BitLocker is in a encryption progress state so you can follow along till it reaches 100% completion.
+.EXAMPLE
+    PS C:\> .\get-bitlocker-process.ps1
+    Checks if drive is in a encryption progress state.
+.INPUTS
+    Inputs (if any)
+.OUTPUTS
+    Output (if any)
+.NOTES
+    This is a as-is, best effort script.
+#>
 
 # Create a progress bar.
 Do
