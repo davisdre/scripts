@@ -1,3 +1,22 @@
+<#
+.Synopsis
+   Registers a specified Azure resource provider across all subscriptions in the tenant.
+.DESCRIPTION
+   This PowerShell script connects to your Azure account, loops through each subscription, and registers a specified provider namespace (e.g., ‘Microsoft.Network’). It then validates the registration status.
+.EXAMPLE
+   .\az_register_multiple_providers.ps1 -ProviderNamespace "Microsoft.Network"
+.EXAMPLE
+   .\az_register_multiple_providers.ps1 -ProviderNamespace "Microsoft.Compute"
+.INPUTS
+   No inputs parameters required.
+.OUTPUTS
+   No specific output; registration status is displayed during execution.
+.NOTES
+   Ensure you have appropriate permissions to register providers in all subscriptions.
+.FUNCTIONALITY
+   Registers Azure resource providers across multiple subscriptions.
+#>
+
 # Connect to Azure account
 Connect-AzAccount
 
